@@ -1,21 +1,27 @@
 # JAVASCRIPT CODE KATAS
 
-Small coding exercises to learn Test Driven Development technique.
+# FizzBuzzWhizz Kata 🚀
 
-## Set up
+TypeScript implementation of the classic **FizzBuzzWhizz** programming kata, applying unit tests with Jest, strict range validation, and prime number logic.
 
-1 - Clone this project running `https://github.com/JuanPa90Cap/Katas.git` in your terminal. If you haven't git installed can simply download it and unzip it.
+## 📋 Game Rules
 
-2 - Install all project dependencies with `npm install` or `yarn install` command.
+For a given natural number between **1 and 100**:
+- **Fizz**: If the number is divisible by 3.
+- **Buzz**: If the number is divisible by 5.
+- **Whizz**: If the number is a prime number.
+- **Combinations**: If it meets multiple rules, the results are concatenated (for example, `3` returns `"FizzWhizz"` because it is divisible by 3 and is also prime).
+- **Original number**: If it does not meet any of the previous rules, it returns the number as is.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧪 Automated Testing (TDD)
+The project includes a complete suite of unit tests implemented with **Jest** to verify:
+1. The behavior of normal numbers (e.g., `1`, `4`).
+2. The division rules for 3 (`"Fizz"`), 5 (`"Buzz"`), and both (`"FizzBuzz"`).
+3. The correct detection of prime numbers (`"Whizz"`) and their combinations.
 
-### `npm run test` or  `yarn test`
+To run the tests in your local environment, use:
 
-Launches the test runner.
-
-### `npm run test:watch` or  `yarn test:watch`
-
-Launches the test runner in watch mode.
+- `npm run test`
+- `npm run test:watch` (runs the tests in interactive mode)
