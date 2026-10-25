@@ -2,7 +2,7 @@
 
 # FizzBuzzWhizz Kata 🚀
 
-TypeScript implementation of the classic **FizzBuzzWhizz** programming kata, applying unit tests with Jest, strict range validation, and prime number logic.
+TypeScript implementation of the classic **FizzBuzzWhizz** programming kata, applying unit tests with Jest and prime number logic.
 
 ## 📋 Game Rules
 
